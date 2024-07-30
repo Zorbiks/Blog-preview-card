@@ -22,27 +22,34 @@ main {
 }
 .card {
 	line-height: 150%;
-	max-width: 375px;
+	max-width: 384px;
 	border: 1px solid var(--gray-950) !important;
 	box-shadow: 8px 8px var(--gray-950);
 	border-radius: .75rem;
-	padding: 1.2rem;
+	padding: 1.5rem;
 }
 .card .card-img-top {
 	border-radius: .75rem;
 }
 .card .badge {
+	font-weight: 800;
 	font-size: 14px;
 	color: var(--gray-950);
 	background-color: var(--yellow);
+	padding: .5rem .75rem;
 }
 .card .card-title {
+	font-weight: 800;
 	transition: color .1s;
 }
 .card .card-title:hover {
 	color: var(--yellow);
 }
-.card .card-text:last-of-type {
+.card .date {
+	font-weight: 500;
+}
+.card .description {
+	font-weight: 500;
 	color: var(--gray-500);
 }
 .card .author img {
@@ -50,4 +57,5 @@ main {
 }
 .card .author span {
 	font-size: 14px;
+	font-weight: 800;
 }
